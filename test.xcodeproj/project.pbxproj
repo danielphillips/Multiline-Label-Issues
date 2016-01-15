@@ -14,6 +14,11 @@
 		65D122DD1C494283004B485E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D122DC1C494283004B485E /* Assets.xcassets */; };
 		65D122E01C494283004B485E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D122DE1C494283004B485E /* LaunchScreen.storyboard */; };
 		65D122EB1C494284004B485E /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D122EA1C494284004B485E /* testTests.m */; };
+		65D122F91C4942DA004B485E /* TTLInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D122F61C4942DA004B485E /* TTLInfoButton.m */; };
+		65D122FA1C4942DA004B485E /* TTLTravelOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D122F81C4942DA004B485E /* TTLTravelOptionView.m */; };
+		65D123001C494531004B485E /* TTLUIStyleDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D122FF1C494531004B485E /* TTLUIStyleDefines.m */; };
+		65D123041C49463A004B485E /* TTLTravelOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D123011C49463A004B485E /* TTLTravelOptionCell.xib */; };
+		65D123051C49463A004B485E /* TTLTravelOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D123031C49463A004B485E /* TTLTravelOptionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 		65D122E61C494284004B485E /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D122EA1C494284004B485E /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		65D122EC1C494284004B485E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D122F51C4942DA004B485E /* TTLInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLInfoButton.h; sourceTree = "<group>"; };
+		65D122F61C4942DA004B485E /* TTLInfoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLInfoButton.m; sourceTree = "<group>"; };
+		65D122F71C4942DA004B485E /* TTLTravelOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLTravelOptionView.h; sourceTree = "<group>"; };
+		65D122F81C4942DA004B485E /* TTLTravelOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLTravelOptionView.m; sourceTree = "<group>"; };
+		65D122FE1C494531004B485E /* TTLUIStyleDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLUIStyleDefines.h; sourceTree = "<group>"; };
+		65D122FF1C494531004B485E /* TTLUIStyleDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLUIStyleDefines.m; sourceTree = "<group>"; };
+		65D123011C49463A004B485E /* TTLTravelOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTLTravelOptionCell.xib; sourceTree = "<group>"; };
+		65D123021C49463A004B485E /* TTLTravelOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLTravelOptionCell.h; sourceTree = "<group>"; };
+		65D123031C49463A004B485E /* TTLTravelOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLTravelOptionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,12 @@
 				65D122D41C494283004B485E /* AppDelegate.m */,
 				65D122D61C494283004B485E /* ViewController.h */,
 				65D122D71C494283004B485E /* ViewController.m */,
+				65D123061C494841004B485E /* Dependancies */,
+				65D123011C49463A004B485E /* TTLTravelOptionCell.xib */,
+				65D123021C49463A004B485E /* TTLTravelOptionCell.h */,
+				65D123031C49463A004B485E /* TTLTravelOptionCell.m */,
+				65D122F71C4942DA004B485E /* TTLTravelOptionView.h */,
+				65D122F81C4942DA004B485E /* TTLTravelOptionView.m */,
 				65D122D91C494283004B485E /* Main.storyboard */,
 				65D122DC1C494283004B485E /* Assets.xcassets */,
 				65D122DE1C494283004B485E /* LaunchScreen.storyboard */,
@@ -109,6 +129,17 @@
 				65D122EC1C494284004B485E /* Info.plist */,
 			);
 			path = testTests;
+			sourceTree = "<group>";
+		};
+		65D123061C494841004B485E /* Dependancies */ = {
+			isa = PBXGroup;
+			children = (
+				65D122F51C4942DA004B485E /* TTLInfoButton.h */,
+				65D122F61C4942DA004B485E /* TTLInfoButton.m */,
+				65D122FE1C494531004B485E /* TTLUIStyleDefines.h */,
+				65D122FF1C494531004B485E /* TTLUIStyleDefines.m */,
+			);
+			name = Dependancies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +225,7 @@
 				65D122E01C494283004B485E /* LaunchScreen.storyboard in Resources */,
 				65D122DD1C494283004B485E /* Assets.xcassets in Resources */,
 				65D122DB1C494283004B485E /* Main.storyboard in Resources */,
+				65D123041C49463A004B485E /* TTLTravelOptionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D122D81C494283004B485E /* ViewController.m in Sources */,
+				65D122FA1C4942DA004B485E /* TTLTravelOptionView.m in Sources */,
+				65D123051C49463A004B485E /* TTLTravelOptionCell.m in Sources */,
+				65D123001C494531004B485E /* TTLUIStyleDefines.m in Sources */,
 				65D122D51C494283004B485E /* AppDelegate.m in Sources */,
+				65D122F91C4942DA004B485E /* TTLInfoButton.m in Sources */,
 				65D122D21C494283004B485E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trainline.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trainline.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
